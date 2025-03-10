@@ -1,3 +1,5 @@
+//JOGO DE PERGUNTAS
+
 import java.util.Scanner;
 
 public class main {
@@ -121,37 +123,7 @@ public class main {
 				} else {
 					System.out.println("Tecla errada, você deveria ter pressionado \"S\".");
 				}
-		
-		/* double TempoAntigo = System.currentTimeMillis();
-		String s = scanner.nextLine();
-		
-		System.out.println(s);*/
-		
-		
-		/* if(main.convertTime(System.currentTimeMillis() - TempoAntigo) >= 2)
-			if(s.length() >= 10) {
-			
-				System.out.printf("Show, a mensagem que você escreveu é %s%n", s);
-		} else {
-			System.out.println("Sua mensagem é muito curta!");
-		}else {
-			System.out.println("Ops! Você precisa esperar pelo menos 2 segundos.");
-			System.out.println("Vamos tentar novamente?");
-			TempoAntigo = System.currentTimeMillis();
-			s = scanner.nextLine();
-			if(main.convertTime(System.currentTimeMillis() - TempoAntigo) >= 2) {
-				System.out.println("Agora sim!");
-			}else {
-				System.out.println("Você errou 2 vezes!");
-			}
-			
-		}
-	}  */
-	
-	/* public static double convertTime(double tempo) {
-		return tempo/1000;
-		*/
-		
+
 	}
 	
 	}
