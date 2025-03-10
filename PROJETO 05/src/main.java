@@ -123,6 +123,7 @@ public class main {
 				} else {
 					System.out.println("Tecla errada, você deveria ter pressionado \"S\".");
 				}
+		
 
 	}
 	
